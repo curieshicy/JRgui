@@ -12,4 +12,4 @@ By using the modern object-oriented programming language Python (e.g. tkinter an
 
 (2) If you do not wish to install any Python packages, you may choose to download a single standalone executable file (JRgui_windows.exe for Windows and JRgui_Linux for Linux operation system). After download the executable file, to start the program, either double click it or use a terminal. 
 
-If you like the program please consider cite our paper "JRgui: A Python program of Joback and Reid Method", under review at ACS Omega.
+
