@@ -1,0 +1,2 @@
+JRgui_Linux filter=lfs diff=lfs merge=lfs -text
+JRgui_Windows.exe filter=lfs diff=lfs merge=lfs -text
