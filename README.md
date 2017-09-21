@@ -6,10 +6,18 @@ By using the modern object-oriented programming language Python (e.g. tkinter an
 
 ![jrgui_main_window](https://user-images.githubusercontent.com/8492535/29347443-51c28124-8212-11e7-9ea9-cda3ac0d5d96.png)
 
+## The manual mode in JRgui program:
+![figure_2](https://user-images.githubusercontent.com/8492535/30713716-cedbc58c-9ed5-11e7-99a0-e952eef48dd7.png)
+
+## The auto mode in JRgui program:
+![figure_3](https://user-images.githubusercontent.com/8492535/30713715-ced8c904-9ed5-11e7-8f7b-0fb19b690baf.png)
+
 ## There are two options to use JRgui program: 
 
-(1) Download/Check out original Python files (Main.py, Joback_Hand_Pick.py, Joback_Smiles.py and molecule.gif) and put them in one folder. After installing necessary Python packages (RDkit, tkinter, pandas, default Python, all versions >3), use terminal to navigate into the folder, type "python Main.py" to invoke the program. 
+(1) Download/Check out original Python files (Main.py, Joback_Hand_Pick.py, Joback_Smiles.py and molecule.gif) and put them in one folder. After installing necessary Python packages (RDkit, tkinter, pandas, default Python, all versions >3), use a terminal to navigate into the folder, and type "python Main.py" to invoke the program. 
 
-(2) If you do not wish to install any Python packages, you may choose to download a single standalone executable file (JRgui_windows.exe for Windows and JRgui_Linux for Linux operation system). After download the executable file, to start the program, either double click it or use a terminal. 
+(2) If you do not wish to install any Python packages, you may choose to download a single standalone executable file (JRgui_windows.exe for Windows and JRgui_Linux for Linux operation system). After you download the executable file, to start the program, either double click it or use a terminal. 
 
+## Citation:
 
+If you use this program and like it, please consider citing: <u>Chenyang Shi and Thomas B. Borchardt, "JRgui: A python program of Joback and Reid method", submitted</u>. 
