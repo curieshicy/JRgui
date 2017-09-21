@@ -20,4 +20,4 @@ By using the modern object-oriented programming language Python (e.g. tkinter an
 
 ## Citation:
 
-If you use this program and like it, please consider citing: <u>Chenyang Shi and Thomas B. Borchardt, "JRgui: A python program of Joback and Reid method", submitted</u>. 
+If you use this program and like it, please consider citing: <i>Chenyang Shi and Thomas B. Borchardt, "JRgui: A python program of Joback and Reid method", submitted</i>. 
