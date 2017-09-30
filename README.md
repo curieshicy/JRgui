@@ -19,7 +19,7 @@ Once conda has been installed, (in the terminal) type <b>conda create -c curiesh
 
 To use JRgui program, the users first need to activate the virtural environment (in Windows type <b>activate my-jrgui-env</b>; in Linux and MacOS type <b>source activate my-jrgui-env</b>. To quit virtural environment replace <b>activate</b> with <b>deactivate</b>), and type <b>jrgui</b> to invoke the GUI. 
 
-For Windows users (7, 8 and 10, 64-bit), the standalone executable files are also available in the release page (https://github.com/curieshicy/JRgui/releases). The users only need to download the correct zipped file for their operation system (upzip it to obtain an executable file with .exe extension). To use simply double-click it to invoke the GUI. These executables are created by using Pyinstaller.
+For Windows users (7, 8 and 10, 64-bit), the standalone executable files are also available in the release page (https://github.com/curieshicy/JRgui/releases). The users only need to download the correct zipped file for their operation system (unzip it to obtain an executable file with .exe extension). Simply double-click it to invoke the GUI. These executables were created by using Pyinstaller.
 
 ## Citation:
 
