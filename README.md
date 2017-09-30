@@ -13,7 +13,7 @@ By using the modern object-oriented programming language Python (e.g. tkinter an
 ![3n](https://user-images.githubusercontent.com/8492535/31049115-df9e03c6-a5f1-11e7-92a8-33f2cf47dc90.png)
 
 ## Install and Use JRgui program (Support Windows, Linux, macOS, 64-bit systems): 
-The recommended way to install JRgui is via <b>conda install</b>. The initial step is to install Anaconda python distribution (https://www.anaconda.com/download/) for Windows, Linux or macOS. Choose 64-bit and Python 3.6 version for download and install. After download and install it, start a terminal (in Windows use <b>Anaconda Prompt</b> not default terminal), type <b>conda --version</b> to check out if conda has been successfully installed. 
+The recommended way to install JRgui is via <b>conda install</b>. The initial step is to install Anaconda python distribution (https://www.anaconda.com/download/) for Windows, Linux or macOS. Choose 64-bit and Python 3.6 version for download and install. After download and install it, start a terminal (in Windows use <b>Anaconda Prompt</b> NOT default terminal), type <b>conda --version</b> to check if conda has been successfully installed. 
 
 Once conda has been installed, (in the terminal) type <b>conda create -c curieshicy -n my-jrgui-env jrgui</b>. Conda will automatically find dependency packages and install them all. This one-line command first adds my conda channel <b>curieshicy</b> and then creates a virtural environment named <b>my-jrgui-env</b> where all dependency Python packages will be installed. The usage of a virtural environment has the advantage of avoiding potential conflicts of different versioned Python installed at default system path. The specific environment created will be only used for JRgui program. 
 
