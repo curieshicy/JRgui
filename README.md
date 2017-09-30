@@ -12,11 +12,14 @@ By using the modern object-oriented programming language Python (e.g. tkinter an
 ## The auto mode in JRgui program:
 ![figure_3](https://user-images.githubusercontent.com/8492535/30713715-ced8c904-9ed5-11e7-8f7b-0fb19b690baf.png)
 
-## There are two options to use JRgui program: 
+## Install JRgui program: 
+The recommended way to install JRgui is via <b>conda install</b>. The initial step is to install Anaconda python distribution (https://www.anaconda.com/download/) for Windows, Linux or macOS. Choose 64-bit and Python 3.6 version for download and install. After download and install it, start a terminal (in Windows use <b>Anaconda Prompt</b> not default terminal), type <b>conda --version</b> to check out if conda has been successfully installed. 
 
-(1) Download/Check out original Python files (Main.py, Joback_Hand_Pick.py, Joback_Smiles.py and molecule.gif) and put them in one folder. After installing necessary Python packages (RDkit, tkinter, pandas, default Python, all versions >3), use a terminal to navigate into the folder, and type "python Main.py" to invoke the program. 
+Once conda has been installed, (in the terminal) type <b>conda create -c curieshicy -n my-jrgui-env jrgui</b>. Conda will automatically find dependency packages and install them all. The one-line command first add my conda channel <b>curieshicy</b> and then creates a virtural environment named <b>my-jrgui-env</b> where all dependency Python packages will be installed. The usage of a virtural environment avoid conflicts of different python version. The specific environment created will be only use for jrgui program. 
 
-(2) If you do not wish to install any Python packages, you may choose to download a single standalone executable file (JRgui_windows.exe for Windows and JRgui_Linux for Linux operation system). After you download the executable file, to start the program, either double click it or use a terminal. 
+To use JRgui program, first activate the virtural environment (in Windows type <b>activate my-jrgui-env</b>; in Linux and MacOS type <b>source activate my-jrgui-env</b>. To quit virtural environment replace <b>activate</b> with <b>deactivate</b>), and type <b>jrgui</b> to invoke the GUI. 
+
+For Windows users (7, 8 and 10, 64-bit), the standlone executalbe files are also avaliable. The users only need to download the correct file for their operation system. To use it simple double-click it to invoke the GUI. These executables are created by using Pyinstaller.
 
 ## Citation:
 
