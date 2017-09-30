@@ -7,7 +7,7 @@ By using the modern object-oriented programming language Python (e.g. tkinter an
 ![1n](https://user-images.githubusercontent.com/8492535/31049114-df926e6c-a5f1-11e7-9da8-ad9d0602e533.png)
 
 ## The manual mode in JRgui program:
-![2n](https://user-images.githubusercontent.com/8492535/31049116-df9e7cac-a5f1-11e7-9e30-74cc17bcd69b.png)
+![2n](https://user-images.githubusercontent.com/8492535/31049131-243170f4-a5f2-11e7-8f90-a7d97577ae96.png)
 
 ## The auto mode in JRgui program:
 ![3n](https://user-images.githubusercontent.com/8492535/31049115-df9e03c6-a5f1-11e7-92a8-33f2cf47dc90.png)
