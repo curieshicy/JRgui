@@ -4,13 +4,13 @@ By using the modern object-oriented programming language Python (e.g. tkinter an
 
 ## The main interface of JRgui program:
 
-![jrgui_main_window](https://user-images.githubusercontent.com/8492535/29347443-51c28124-8212-11e7-9ea9-cda3ac0d5d96.png)
+![1n](https://user-images.githubusercontent.com/8492535/31049114-df926e6c-a5f1-11e7-9da8-ad9d0602e533.png)
 
 ## The manual mode in JRgui program:
-![figure_2](https://user-images.githubusercontent.com/8492535/30713716-cedbc58c-9ed5-11e7-99a0-e952eef48dd7.png)
+![2n](https://user-images.githubusercontent.com/8492535/31049116-df9e7cac-a5f1-11e7-9e30-74cc17bcd69b.png)
 
 ## The auto mode in JRgui program:
-![figure_3](https://user-images.githubusercontent.com/8492535/30713715-ced8c904-9ed5-11e7-8f7b-0fb19b690baf.png)
+![3n](https://user-images.githubusercontent.com/8492535/31049115-df9e03c6-a5f1-11e7-92a8-33f2cf47dc90.png)
 
 ## Install and Use JRgui program (Support Windows, Linux, macOS, 64-bit systems): 
 The recommended way to install JRgui is via <b>conda install</b>. The initial step is to install Anaconda python distribution (https://www.anaconda.com/download/) for Windows, Linux or macOS. Choose 64-bit and Python 3.6 version for download and install. After download and install it, start a terminal (in Windows use <b>Anaconda Prompt</b> not default terminal), type <b>conda --version</b> to check out if conda has been successfully installed. 
