@@ -32,7 +32,11 @@ To use JRgui program, the users first need to activate the virtural environment 
 
 <b>conda create -c rdkit -n my-rdkit-env rdkit</b>
 
-Download the source codes (to e.g. C:\Users\Desktop\username\Source_Codes), open an Anaconda Prompt terminal, navigate to <b>Source_Codes</b> folder, and type 
+Download the source codes (to e.g. C:\Users\Desktop\username\Source_Codes), open an Anaconda Prompt terminal, activate rdkit environment by typing 
+
+<b>activate my-rdkit-env</b>
+
+navigate to <b>Source_Codes</b> folder, and type 
 
 <b>python jrgui.py</b> 
 
