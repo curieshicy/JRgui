@@ -13,13 +13,39 @@ By using the modern object-oriented programming language Python (e.g. tkinter an
 ![3n](https://user-images.githubusercontent.com/8492535/31049115-df9e03c6-a5f1-11e7-92a8-33f2cf47dc90.png)
 
 ## Install and Use JRgui program (Support Windows, Linux, macOS, 64-bit systems): 
+### Recommended Installation Method--Using <b>Conda install</b>
+
 The recommended way to install JRgui is via <b>conda install</b>. The initial step is to install Anaconda python distribution (https://www.anaconda.com/download/) for Windows, Linux or macOS. Choose 64-bit and Python 3.6 version for download and install. After download and install it, start a terminal (in Windows use <b>Anaconda Prompt</b> NOT default terminal), type <b>conda --version</b> to check if conda has been successfully installed. 
 
-Once conda has been installed, (in the terminal) type <b>conda create -c curieshicy -n my-jrgui-env jrgui</b>. Conda will automatically find dependency packages and install them all. This one-line command first adds my conda channel <b>curieshicy</b> and then creates a virtural environment named <b>my-jrgui-env</b> where all dependency Python packages will be installed. The usage of a virtural environment has the advantage of avoiding potential conflicts of different versioned Python installed at default system path. The specific environment created will be only used for JRgui program. 
+Once conda has been installed, (in the terminal) type the following two commands
+
+<b>conda config --add channels rdkit</b> 
+
+<b>conda create -c curieshicy -n my-jrgui-env jrgui</b> 
+
+The first command adds channel of a dependency package--rdkit. The second one-line command first adds my conda channel <b>curieshicy</b> and then creates a virtural environment named <b>my-jrgui-env</b> where all dependency Python packages will be installed. The usage of a virtural environment has the advantage of avoiding potential conflicts of different versioned Python installed at default system path. The specific environment created will be only used for JRgui program. After executing these two line-commands Conda will automatically find dependency packages and install them all. 
 
 To use JRgui program, the users first need to activate the virtural environment (in Windows type <b>activate my-jrgui-env</b>; in Linux and MacOS type <b>source activate my-jrgui-env</b>. To quit virtural environment replace <b>activate</b> with <b>deactivate</b>), and type <b>jrgui</b> to invoke the GUI. 
 
-For Windows users (7, 8 and 10, 64-bit), the standalone executable files are also available in the release page (https://github.com/curieshicy/JRgui/releases). The users only need to download the correct zipped file for their operation system (unzip it to obtain an executable file with .exe extension). Simply double-click it to invoke the GUI. These executables were created by using Pyinstaller.
+### What if Conda install fails?
+(It is not supposed to but...) For some reason, if the conda install method fails, the users can always down the source codes and mannual invoke the GUI interface. To do this, for example, on a Windows platform, first install rdkit package (make sure Anaconda has been installed) by type
+
+<b>conda create -c rdkit -n my-rdkit-env rdkit</b>
+
+Download the source codes (to e.g. C:\Users\Desktop\username\Source_Codes), open an Anaconda Prompt terminal, navigate to <b>Source_Codes</b> folder, and type 
+
+<b>python jrgui.py</b> 
+
+to invoke the GUI interface.
+
+
+### Last resort (not recommended)
+
+For Windows users (7, 8 and 10, 64-bit), the standalone executable files are also available in the release page (https://github.com/curieshicy/JRgui/releases). The users only need to download the exe file for their operation system. Simply double-click it to invoke the GUI. These executables were created by using Pyinstaller Development version. All these files worked well on my computers, however, this does not mean it works on your specific Windows platform. You may give it a try if you wish to.
+
+### Questions and suggestions
+
+Questions and suggestions are welcome. You may contact me at chenyang.shi@abbvie.com. Thanks for considering using JRgui.
 
 ## Citation:
 
