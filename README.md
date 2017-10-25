@@ -32,7 +32,7 @@ To use JRgui program, the users first need to activate the virtural environment 
 
 <b>conda create -c rdkit -n my-rdkit-env rdkit</b>
 
-Download the source codes (to e.g. C:\Users\Desktop\username\Source_Codes), in the Anaconda Prompt terminal, activate rdkit environment by typing 
+Download the source codes (i.e. molecule.gif and jrgui.py to e.g. C:\Users\Desktop\username\Source_Codes), in the Anaconda Prompt terminal, activate rdkit environment by typing 
 
 <b>activate my-rdkit-env</b>
 
