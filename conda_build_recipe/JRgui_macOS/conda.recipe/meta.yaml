@@ -14,14 +14,14 @@ build:
 
 requirements:
   build:
-    - python >=3.5
+    - python 3.5*
     - setuptools
-    - rdkit >=2017.03.3
+    - rdkit >=2017.09.1
     - pandas >=0.20
   run:
-    - python >=3.5
+    - python 3.5*
     - setuptools
-    - rdkit >=2017.03.3
+    - rdkit >=2017.09.1
     - pandas >=0.20
 
 about:
