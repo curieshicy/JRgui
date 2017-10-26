@@ -12,7 +12,7 @@ By using the modern object-oriented programming language Python (e.g. tkinter an
 ## The auto mode in JRgui program:
 ![3n](https://user-images.githubusercontent.com/8492535/31049115-df9e03c6-a5f1-11e7-92a8-33f2cf47dc90.png)
 
-## Install and Use JRgui program (Support Windows, Linux, macOS, 64-bit systems): 
+## Install and Use JRgui program (Support Windows and Linux64-bit systems): 
 ### Recommended Installation Method--Using <b>Conda install</b>
 
 The recommended way to install JRgui is via <b>conda install</b>. The initial step is to install Anaconda python distribution (https://www.anaconda.com/download/) for Windows, Linux or macOS. Choose 64-bit and Python 3.6 version for download and install. After download and install it, start a terminal (in Windows use <b>Anaconda Prompt</b> NOT default terminal), type <b>conda --version</b> to check if conda has been successfully installed. 
