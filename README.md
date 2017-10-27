@@ -27,6 +27,8 @@ The first command adds the channel of a dependency package--rdkit (One may use <
 
 To use JRgui program, the users first need to activate the virtural environment (in Windows type <b>activate my-jrgui-env</b>; in Linux type <b>source activate my-jrgui-env</b>. To quit virtural environment replace <b>activate</b> with <b>deactivate</b>), and type <b>jrgui</b> to invoke the GUI. 
 
+The installation and test of JRgui program has been performed on Windows 7, 8.1, 10 and Linux Ubuntu 14.04.5 (all 64-bit OS). The corresponding screenshots are accessbile at https://github.com/curieshicy/JRgui/tree/master/Installation_and_Test. 
+
 ### What if Conda install fails?
 (It is not supposed to but...) For some reason, if the conda install method fails, the users can always download the source codes and mannual invoke the GUI interface. To do this, for example, on a Windows platform, first install rdkit package (make sure Anaconda has been installed) by typing in a Anaconda Prompt terminal:
 
