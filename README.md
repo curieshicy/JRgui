@@ -12,10 +12,10 @@ By using the modern object-oriented programming language Python (e.g. tkinter an
 ## The auto mode in JRgui program:
 ![3n](https://user-images.githubusercontent.com/8492535/31049115-df9e03c6-a5f1-11e7-92a8-33f2cf47dc90.png)
 
-## Install and Use JRgui program (Support Windows and Linux64-bit systems): 
+## Install and Use JRgui program (Support Windows, Linux and macOS 64-bit systems): 
 ### Recommended Installation Method--Using <b>Conda install</b>
 
-The recommended way to install JRgui is via <b>conda install</b>. The initial step is to install Anaconda python distribution (https://www.anaconda.com/download/) for Windows or Linux OS. Choose 64-bit and Python 3.6 version for download and install. After download and install it, start a terminal (in Windows use <b>Anaconda Prompt</b> NOT default terminal), type <b>conda --version</b> to check if conda has been successfully installed. 
+The recommended way to install JRgui is via <b>conda install</b>. The initial step is to install Anaconda python distribution (https://www.anaconda.com/download/) for Windows, Linux and macOS OS. Choose 64-bit and Python 3.6 version for download and install. After download and install it, start a terminal (in Windows use <b>Anaconda Prompt</b> NOT default terminal), type <b>conda --version</b> to check if conda has been successfully installed. 
 
 Once conda has been installed, (in the terminal) type the following two commands
 
@@ -26,6 +26,12 @@ Once conda has been installed, (in the terminal) type the following two commands
 The first command adds the channel of a dependency package--rdkit (One may use <b>conda config --get channels</b> to check channels that have been added). The second one-line command first adds my conda channel <b>curieshicy</b> and then creates a virtural environment named <b>my-jrgui-env</b> where all dependency Python packages will be installed. The usage of a virtural environment has the advantage of avoiding potential conflicts of different versioned Python installed at default system path. The specific environment created will be only used for JRgui program. After executing these two line-commands Conda will automatically find dependency packages and install them all. 
 
 To use JRgui program, the users first need to activate the virtural environment (in Windows type <b>activate my-jrgui-env</b>; in Linux type <b>source activate my-jrgui-env</b>. To quit virtural environment replace <b>activate</b> with <b>deactivate</b>), and type <b>jrgui</b> to invoke the GUI. 
+
+<b>Note</b> For macOS system, as of 10/27/2017, please make sure to install your conda with a version number 4.3.25, which can be done by type 
+
+<b>conda install conda=4.3.25</b>
+
+Please see the post by author of RDKit, Dr. Greg Landrum on this bug/issue (https://www.mail-archive.com/rdkit-discuss@lists.sourceforge.net/msg07325.html).
 
 The installation and test of JRgui program has been performed on Windows 7, 8.1, 10 and Linux Ubuntu 14.04.5 (all 64-bit OS). For your reference, the corresponding screenshots are accessible at https://github.com/curieshicy/JRgui/tree/master/Installation_and_Test. 
 
