@@ -31,7 +31,7 @@ To use JRgui program, the users first need to activate the virtural environment 
 
 <b>conda install conda=4.3.25</b>
 
-Otherwise when loading RDKit, it will show error message such as "Fatal Python error: PyThreadState_Get: no current thread" or "Segmentation fault: 11". Please see the post by author of RDKit, Dr. Greg Landrum on this bug/issue (https://www.mail-archive.com/rdkit-discuss@lists.sourceforge.net/msg07325.html).
+Otherwise when loading RDKit, it will show error messages such as "Fatal Python error: PyThreadState_Get: no current thread" or "Segmentation fault: 11". Please see the post by the author of RDKit, Dr. Greg Landrum on this bug/issue (https://www.mail-archive.com/rdkit-discuss@lists.sourceforge.net/msg07325.html).
 
 The installation and test of JRgui program has been performed on Windows 7, 8.1, 10, Linux Ubuntu 14.04.5 and macOS 10.10.3 (all 64-bit OS). For your reference, the corresponding screenshots are accessible at https://github.com/curieshicy/JRgui/tree/master/Installation_and_Test. 
 
