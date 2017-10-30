@@ -36,7 +36,7 @@ Otherwise when loading RDKit, it will show error messages such as "Fatal Python 
 The installation and test of JRgui program has been performed on Windows 7, 8.1, 10, Linux Ubuntu 14.04.5 and macOS 10.10.3 (all 64-bit OS). For your reference, the corresponding screenshots are accessible at https://github.com/curieshicy/JRgui/tree/master/Installation_and_Test. 
 
 ### What if Conda install fails?
-(It is not supposed to but...) For some reason, if the conda install method fails, the users can always download the source codes and mannual invoke the GUI interface. To do this, for example, on a Windows platform, first install rdkit package (make sure Anaconda has been installed) by typing in a Anaconda Prompt terminal:
+(It is not supposed to but...) For some reason, if the conda install method fails, the users can always download the source codes and manually invoke the GUI interface. To do this, for example, on a Windows platform, first install rdkit package (make sure Anaconda has been installed) by typing in a Anaconda Prompt terminal:
 
 <b>conda create -c rdkit -n my-rdkit-env rdkit</b>
 
@@ -52,7 +52,7 @@ to invoke the GUI interface.
 
 ### Last resort (not recommended)
 
-For Windows users (7, 8 and 10, 64-bit), the standalone executable files are also available in the release page (https://github.com/curieshicy/JRgui/releases). The users only need to download the exe file for their operation system. Simply double-click it to invoke the GUI. These executables were created by using Pyinstaller Development version (http://www.pyinstaller.org/downloads.html). All these files worked well on my computers, however, this does not mean it works on your specific Windows platform. You may give it a try if you wish to.
+For Windows users (7, 8 and 10, 64-bit), the standalone executable files are also available in the release page (https://github.com/curieshicy/JRgui/releases). The users only need to download the exe file for their operation system. Simply double-click it to invoke the GUI. These executables were created by using Pyinstaller Development version (http://www.pyinstaller.org/downloads.html). All these files passed tests on my computers, however, this does not mean it works on your specific Windows platform. You may give it a try if you wish to.
 
 ### Questions and suggestions
 
