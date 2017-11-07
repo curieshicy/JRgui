@@ -214,14 +214,15 @@ class Auto_Search:
 
     def compute_single_mode(self, string):
 
-        smarts = ["[CH3;A;X4;!R]","[CH2;A;X4;!R]","[CH1;A;X4;!R]","[CH0;A;X4;!R]","[CH2;A;X3;!R]",
-                      "[CH1;A;X3;!R]","[CH0;A;X3;!R]","[CH0;A;X2;!R](=[$(*)])=[$(*)]", "[CH1;A;X2;!R]#[$(*)]", "[CH0;A;X2;!R]#[$(*)]",
-                      "[CH2;A;X4;R]","[CH1;A;X4;R]","[CH0;A;X4;R]","[#6H1;X3;R]","[#6H0;X3;R]",
-                      "[F]","[Cl]","[Br]", "[I]",
-                      "[$([OH1]A)]","[$(Oc)]","[OH0;X2;!R]","[#8H0;X2;R]", "[CH0;A;X3;!R]=O","[CH0;A;X3;R]=O",
-                      "[CH1]=O","C(=O)[OH]","C(=O)[OH0]","[OX1]",
-                      "[NH2;X3]","[NH1;X3;!R]","[#7H1;X3;R]","[NH0;X3;!R]","[NH0;X2;!R]","[#7H0;X2;R]","[NH1;X2]","C#N","N(=O)=O",
-                      "[SH1]","[SH0;!R]","[#16H0;R]"]
+        smarts = ["[CH0;A;X2;!R](=[$(*)])=[$(*)]", "[CH1;A;X2;!R]#[$(*)]", "[CH0;A;X2;!R]#[$(*)]", "C(=O)[OH]", "C(=O)[OH0]",
+          "[CH0;A;X3;R]=O", "[CH1]=O", "[$([OH1]A)]", "[O;H1;$(O-!@c)]", "[#8H0;X2;R]",
+          "[CH0;A;X3;!R]=O", "[OH0;X2;!R]", "N(=O)=O", "[OX1]", "[#7H0;X2;R]",
+          "[#7H1;X3;R]", "[NH1;X2]","[NH0;X2;!R]","C#N","[NH2;X3]",
+          "[NH1;X3;!R]", "[NH0;X3;!R]","[SH1]","[SH0;!R]","[#16H0;R]",
+          "[#6H1;X3;R]", "[#6H0;X3;R]","[CH2;A;X4;R]","[CH1;A;X4;R]","[CH0;A;X4;R]",
+          "[CH2;A;X3;!R]", "[CH1;A;X3;!R]","[CH0;A;X3;!R]","[CH3;A;X4;!R]","[CH2;A;X4;!R]",
+          "[CH1;A;X4;!R]","[CH0;A;X4;!R]","[F]","[Cl]","[Br]",
+          "[I]"]
         
         tuples = [] #[((7, 8, 9),), ((9,),), ((10,),), ((7, 8),), ((8,),), ((2,), (5,), (6,)), ((1,), (3,), (4,)), ((7,),), ((0,),)]
         #string = self.SMILES.get()
@@ -265,14 +266,15 @@ class Auto_Search:
 
     def compute_batch_mode(self, string): ##in batch mode, no need to display the error message.
 
-        smarts = ["[CH3;A;X4;!R]","[CH2;A;X4;!R]","[CH1;A;X4;!R]","[CH0;A;X4;!R]","[CH2;A;X3;!R]",
-                      "[CH1;A;X3;!R]","[CH0;A;X3;!R]","[CH0;A;X2;!R](=[$(*)])=[$(*)]", "[CH1;A;X2;!R]#[$(*)]", "[CH0;A;X2;!R]#[$(*)]",
-                      "[CH2;A;X4;R]","[CH1;A;X4;R]","[CH0;A;X4;R]","[#6H1;X3;R]","[#6H0;X3;R]",
-                      "[F]","[Cl]","[Br]", "[I]",
-                      "[$([OH1]A)]","[$(Oc)]","[OH0;X2;!R]","[#8H0;X2;R]", "[CH0;A;X3;!R]=O","[CH0;A;X3;R]=O",
-                      "[CH1]=O","C(=O)[OH]","C(=O)[OH0]","[OX1]",
-                      "[NH2;X3]","[NH1;X3;!R]","[#7H1;X3;R]","[NH0;X3;!R]","[NH0;X2;!R]","[#7H0;X2;R]","[NH1;X2]","C#N","N(=O)=O",
-                      "[SH1]","[SH0;!R]","[#16H0;R]"]
+        smarts = ["[CH0;A;X2;!R](=[$(*)])=[$(*)]", "[CH1;A;X2;!R]#[$(*)]", "[CH0;A;X2;!R]#[$(*)]", "C(=O)[OH]", "C(=O)[OH0]",
+          "[CH0;A;X3;R]=O", "[CH1]=O", "[$([OH1]A)]", "[O;H1;$(O-!@c)]", "[#8H0;X2;R]",
+          "[CH0;A;X3;!R]=O", "[OH0;X2;!R]", "N(=O)=O", "[OX1]", "[#7H0;X2;R]",
+          "[#7H1;X3;R]", "[NH1;X2]","[NH0;X2;!R]","C#N","[NH2;X3]",
+          "[NH1;X3;!R]", "[NH0;X3;!R]","[SH1]","[SH0;!R]","[#16H0;R]",
+          "[#6H1;X3;R]", "[#6H0;X3;R]","[CH2;A;X4;R]","[CH1;A;X4;R]","[CH0;A;X4;R]",
+          "[CH2;A;X3;!R]", "[CH1;A;X3;!R]","[CH0;A;X3;!R]","[CH3;A;X4;!R]","[CH2;A;X4;!R]",
+          "[CH1;A;X4;!R]","[CH0;A;X4;!R]","[F]","[Cl]","[Br]",
+          "[I]"]
         
         tuples = [] #[((7, 8, 9),), ((9,),), ((10,),), ((7, 8),), ((8,),), ((2,), (5,), (6,)), ((1,), (3,), (4,)), ((7,),), ((0,),)]
         #string = self.SMILES.get()
@@ -347,7 +349,9 @@ class Auto_Search:
                         if len(item)>len(new_tuples[index_2]):
                             remove_index.append(index_2) #indefoirx
                         elif len(item)<len(new_tuples[index_2]):
-                            remove_index.append(index_1) #index   
+                            remove_index.append(index_1) #index  
+                        elif len(item)==len(new_tuples[index_2]):
+                            remove_index.append(index_2) #index
 
             remain_sets = set(range(len(new_tuples))).difference(set(remove_index))
 
@@ -375,15 +379,15 @@ class Auto_Search:
 
         def search_func_groups(smile): ##this is to search functional groups and print out them with numbers
 
-            smarts = ["[CH3;A;X4;!R]","[CH2;A;X4;!R]","[CH1;A;X4;!R]","[CH0;A;X4;!R]","[CH2;A;X3;!R]",
-                      "[CH1;A;X3;!R]","[CH0;A;X3;!R]","[CH0;A;X2;!R](=[$(*)])=[$(*)]", "[CH1;A;X2;!R]#[$(*)]", "[CH0;A;X2;!R]#[$(*)]",
-                      "[CH2;A;X4;R]","[CH1;A;X4;R]","[CH0;A;X4;R]","[#6H1;X3;R]","[#6H0;X3;R]",
-                      "[F]","[Cl]","[Br]", "[I]",
-                      "[$([OH1]A)]","[$(Oc)]","[OH0;X2;!R]","[#8H0;X2;R]", "[CH0;A;X3;!R]=O","[CH0;A;X3;R]=O",
-                      "[CH1]=O","C(=O)[OH]","C(=O)[OH0]","[OX1]",
-                      "[NH2;X3]","[NH1;X3;!R]","[#7H1;X3;R]","[NH0;X3;!R]","[NH0;X2;!R]","[#7H0;X2;R]","[NH1;X2]","C#N","N(=O)=O",
-                      "[SH1]","[SH0;!R]","[#16H0;R]"                   
-                      ]                
+            smarts = ["[CH0;A;X2;!R](=[$(*)])=[$(*)]", "[CH1;A;X2;!R]#[$(*)]", "[CH0;A;X2;!R]#[$(*)]", "C(=O)[OH]", "C(=O)[OH0]",
+          "[CH0;A;X3;R]=O", "[CH1]=O", "[$([OH1]A)]", "[O;H1;$(O-!@c)]", "[#8H0;X2;R]",
+          "[CH0;A;X3;!R]=O", "[OH0;X2;!R]", "N(=O)=O", "[OX1]", "[#7H0;X2;R]",
+          "[#7H1;X3;R]", "[NH1;X2]","[NH0;X2;!R]","C#N","[NH2;X3]",
+          "[NH1;X3;!R]", "[NH0;X3;!R]","[SH1]","[SH0;!R]","[#16H0;R]",
+          "[#6H1;X3;R]", "[#6H0;X3;R]","[CH2;A;X4;R]","[CH1;A;X4;R]","[CH0;A;X4;R]",
+          "[CH2;A;X3;!R]", "[CH1;A;X3;!R]","[CH0;A;X3;!R]","[CH3;A;X4;!R]","[CH2;A;X4;!R]",
+          "[CH1;A;X4;!R]","[CH0;A;X4;!R]","[F]","[Cl]","[Br]",
+          "[I]"]                
 
 
             tuples = []
