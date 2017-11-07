@@ -27,7 +27,7 @@ The first command adds the channel of a dependency package--rdkit (One may use <
 
 To use JRgui program, the users first need to activate the virtural environment (in Windows type <b>activate my-jrgui-env</b>; in Linux type <b>source activate my-jrgui-env</b>. To quit virtural environment replace <b>activate</b> with <b>deactivate</b>), and type <b>jrgui</b> to invoke the GUI. 
 
-<b>Note</b> For macOS system, as of 10/27/2017, please make sure to install your conda with a version number 4.3.25, which can be done by type 
+<b>Note</b> For macOS system, as of 10/27/2017, please make sure to install your conda with a version number 4.3.25, which can be done by typing 
 
 <b>conda install conda=4.3.25</b>
 
