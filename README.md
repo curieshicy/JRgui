@@ -60,4 +60,4 @@ Questions and suggestions are welcome. You may contact me at chenyang.shi@abbvie
 
 ## Citation:
 
-If you use this program and like it, please consider citing: <i>Chenyang Shi and Thomas B. Borchardt, "JRgui: A python program of Joback and Reid method", submitted</i>. 
+If you use this program and like it, please consider citing: <i>Chenyang Shi and Thomas B. Borchardt, "JRgui: A python program of Joback and Reid method", <i>accepted to be published in ACS Omega</i>. 
