@@ -50,10 +50,6 @@ navigate to <b>Source_Codes</b> folder, and type
 
 to invoke the GUI interface.
 
-### Last resort (not recommended)
-
-For Windows users (7, 8 and 10, 64-bit), the standalone executable files are also available in the release page (https://github.com/curieshicy/JRgui/releases). The users only need to download the exe file for their operation system. Simply double-click it to invoke the GUI. These executables were created by using Pyinstaller Development version (http://www.pyinstaller.org/downloads.html). All these files passed tests on my computers, however, this does not mean it works on your specific Windows platform. You may give it a try if you wish to.
-
 ### Questions and suggestions
 
 Questions and suggestions are welcome. You may contact me at chenyang.shi@abbvie.com. Thanks for considering using JRgui.
