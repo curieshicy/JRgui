@@ -52,7 +52,7 @@ to invoke the GUI interface.
 
 ### Questions and suggestions
 
-Questions and suggestions are welcome. You may contact me at chenyang.shi@abbvie.com. Thanks for considering using JRgui.
+Questions and suggestions are welcome. You may contact me at cs3000@columbia.edu. Thanks for considering using JRgui.
 
 ## Citation:
 
