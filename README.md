@@ -57,3 +57,7 @@ Questions and suggestions are welcome. You may contact me at chenyang.shi@abbvie
 ## Citation:
 
 If you use this program and like it, please consider citing: <i>Chenyang Shi and Thomas B. Borchardt, "JRgui: A python program of Joback and Reid method", accepted to be published in ACS Omega</i>. 
+
+## Acknowledge:
+
+I thank helps from Jason Biggs when developing and testing SMARTS codes for functional groups used in Joback and Reid method. 
