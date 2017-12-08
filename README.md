@@ -58,7 +58,7 @@ Questions and suggestions are welcome. You may contact me at cs3000@columbia.edu
 
 If you use this program and like it, please consider citing: 
 
-<i>Chenyang Shi and Thomas B. Borchardt, "JRgui: A python program of Joback and Reid method", ACS Omega, <b>2(12)</b>, (2017), 8682–8688.</i>. 
+Chenyang Shi and Thomas B. Borchardt, "JRgui: A python program of Joback and Reid method",<i> ACS Omega</i>, <b>2(12)</b>, (2017), 8682–8688 (<a href = "http://pubs.acs.org/doi/full/10.1021/acsomega.7b01464">Link</a>). 
 
 ## Acknowledgement:
 
