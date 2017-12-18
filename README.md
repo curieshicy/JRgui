@@ -36,7 +36,7 @@ Otherwise when loading RDKit, it will show error messages such as "Fatal Python 
 The installation and test of JRgui program has been performed on Windows 7, 8.1, 10, Linux Ubuntu 14.04.5 and macOS 10.10.3 (all 64-bit OS). For your reference, the corresponding screenshots are accessible at https://github.com/curieshicy/JRgui/tree/master/Installation_and_Test. 
 
 ### What if Conda install fails?
-(It is not supposed to but...) For some reason, if the conda install method fails, the users can always download the source codes and manually invoke the GUI interface. To do this, for example, on a Windows platform, first install rdkit package (make sure Anaconda has been installed) by typing in a Anaconda Prompt terminal:
+(It is not supposed to but...) For some reason, if the conda install method fails, the users can always download the source codes and manually invoke the GUI interface. To do this, for example, on a Windows platform, first install rdkit package (make sure Anaconda has been installed) by typing in an Anaconda Prompt terminal:
 
 <b>conda create -c rdkit -n my-rdkit-env rdkit</b>
 
