@@ -25,7 +25,7 @@ Once conda has been installed, (in the terminal) type the following two commands
 
 The first command adds the channel of a dependency package--rdkit (One may use <b>conda config --get channels</b> to check channels that have been added). The second one-line command first adds my conda channel <b>curieshicy</b> and then creates a virtural environment named <b>my-jrgui-env</b> where all dependency Python packages will be installed. The usage of a virtural environment has the advantage of avoiding potential conflicts of different versioned Python installed at default system path. The specific environment created will be only used for JRgui program. After executing these two line-commands Conda will automatically find dependency packages and install them all. 
 
-To use JRgui program, the users first need to activate the virtural environment (in Windows type <b>activate my-jrgui-env</b>; in Linux type <b>source activate my-jrgui-env</b>. To quit virtural environment replace <b>activate</b> with <b>deactivate</b>), and type <b>jrgui</b> to invoke the GUI. 
+To use JRgui program, the users first need to activate the virtural environment (in Windows type <b>activate my-jrgui-env</b>; in Linux and macOS type <b>source activate my-jrgui-env</b>. To quit virtural environment replace <b>activate</b> with <b>deactivate</b>), and type <b>jrgui</b> to invoke the GUI. 
 
 <b>Note</b> For macOS system, as of 10/27/2017, please make sure to install your conda with a version number 4.3.25, which can be done by typing 
 
