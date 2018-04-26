@@ -62,4 +62,4 @@ Chenyang Shi and Thomas B. Borchardt, "JRgui: A python program of Joback and Rei
 
 ## Acknowledgement:
 
-I thank helps from Jason Biggs when developing and testing SMARTS codes for functional groups used in Joback and Reid method. 
+I thank Jason Biggs for helping develop and test SMARTS codes for functional groups used in Joback and Reid method. 
