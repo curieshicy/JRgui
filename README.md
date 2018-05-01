@@ -1,6 +1,12 @@
 ## A brief description of JRgui program:
 
-By using the modern object-oriented programming language Python (e.g. tkinter and pandas modules) and a chemoinformatics open source library (RDKit), the classic Joback and Reid group contribution method was revisited and written into a graphical user interface program—JRgui. The underlying algorithm behind the program is explained, herein, with the users being able to operate the program in either a manual and automatic mode.  In the manual mode, the users are required to determine the type and occurrence of functional groups in the compound of interest and manually enter into the program. In the automatic mode, both of these parameters can be detected automatically via user input of the compound SMILES string.  An additional advantage of the automatic mode is that a large number of molecules can be processed simultaneously by parsing their individual SMILES strings into a text file which is read by the program. The resulting predicted physical properties along with approximately 200 molecular descriptors are saved in a spreadsheet file for subsequent analysis. The program is freely available from https://github.com/curieshicy/JRgui for Windows, Linux and macOS 64-bit operating systems. It is hoped that the current work may facilitate the creation of other user friendly programs in the chemoinformatics community by using Python. 
+By using the modern object-oriented programming language Python (e.g. tkinter and pandas modules) and a chemoinformatics open source library (RDKit), the classic Joback and Reid group contribution method was revisited and written into a graphical user interface program—JRgui. The underlying algorithm behind the program is explained, herein, with the users being able to operate the program in either a manual and automatic mode.  In the manual mode, the users are required to determine the type and occurrence of functional groups in the compound of interest and manually enter into the program. In the automatic mode, both of these parameters can be detected automatically via user input of the compound SMILES string.  An additional advantage of the automatic mode is that a large number of molecules can be processed simultaneously by parsing their individual SMILES strings into a text file which is read by the program. The resulting predicted physical properties along with approximately 200 molecular descriptors are saved in a spreadsheet file for subsequent analysis. The program is freely available from https://github.com/curieshicy/JRgui for Windows, Linux and macOS 64-bit operating systems. It is hoped that the current work may facilitate the creation of other user friendly programs in the chemoinformatics community by using Python.
+
+## Citation:
+
+If you use this program and like it, please consider citing: <br>
+(1) Chenyang Shi and Thomas B. Borchardt, "JRgui: A python program of Joback and Reid method",<i> ACS Omega</i>, <b>2(12)</b>, (2017), 8682–8688 (<a href = "http://pubs.acs.org/doi/full/10.1021/acsomega.7b01464">Link</a>). <br>
+(2) http://www.rdkit.org/
 
 ## The main interface of JRgui program:
 
@@ -53,12 +59,6 @@ to invoke the GUI interface.
 ### Questions and suggestions
 
 Questions and suggestions are welcome. You may contact me at cs3000@columbia.edu. Thanks for considering using JRgui.
-
-## Citation:
-
-If you use this program and like it, please consider citing: 
-
-Chenyang Shi and Thomas B. Borchardt, "JRgui: A python program of Joback and Reid method",<i> ACS Omega</i>, <b>2(12)</b>, (2017), 8682–8688 (<a href = "http://pubs.acs.org/doi/full/10.1021/acsomega.7b01464">Link</a>). 
 
 ## Acknowledgement:
 
