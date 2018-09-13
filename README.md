@@ -6,8 +6,8 @@ By using the modern object-oriented programming language Python (e.g. tkinter an
 
 If you use this program and like it, please consider citing the following: 
 
-(1) Chenyang Shi and Thomas B. Borchardt, "JRgui: A python program of Joback and Reid method",<i> ACS Omega</i>, <b>2(12)</b>, (2017), 8682–8688 (<a href = "http://pubs.acs.org/doi/full/10.1021/acsomega.7b01464">Link</a>). <br>
-(2) RDKit, Open Source Cheminformatics. http://www.rdkit.org/
+1. Chenyang Shi and Thomas B. Borchardt, "JRgui: A python program of Joback and Reid method",<i> ACS Omega</i>, <b>2(12)</b>, (2017), 8682–8688 (<a href = "http://pubs.acs.org/doi/full/10.1021/acsomega.7b01464">Link</a>). <br>
+2. RDKit, Open Source Cheminformatics. http://www.rdkit.org/
 
 ## The main interface of JRgui program:
 
